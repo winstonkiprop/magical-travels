@@ -9,20 +9,20 @@ function Destination(){
     }, [])
     const getAllDestinations = () =>{
         axios 
-        .get('http://localhost:3000/destinatio')
+        .get('http://localhost:3000/destination')
         .then((response) =>{
             console.log(response);
             setDestination(response.data);
         }) 
         .catch((error) =>{
-            console.log(err);
+            console.log(error);
         })
     }
     return(
         <div className="travels">
             <div className="">
                 {destinations.map((destination) => (
-                    <div className="travels-det">
+                    <div className="travels-det" key={destination.id}>
                         <h1>{destination.name}</h1>
                         <h3>{destination.cost}</h3>
                         <p>{destination.description}</p>
