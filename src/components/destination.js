@@ -9,7 +9,7 @@ function Destination(){
     }, [])
     const getAllDestinations = () =>{
         axios 
-        .get('')
+        .get('http://localhost:3000/destinatio')
         .then((response) =>{
             console.log(response);
             setDestination(response.data);
@@ -26,9 +26,11 @@ function Destination(){
                         <h1>{destination.name}</h1>
                         <h3>{destination.cost}</h3>
                         <p>{destination.description}</p>
-                        <div>
+                        </div>
                 ))}
             </div>
         </div>
     )
 }
+
+export default Destination;
