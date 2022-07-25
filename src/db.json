@@ -1,0 +1,17 @@
+{
+    "destination":[
+        {
+        "id":1,
+        "name": "Maasai Mara",
+        "cost":2000,
+        "description":"An epitome of gamepark experience."
+        },
+        {
+        "id":2,
+        "name": "Amboseli reserve",
+        "cost":3000,
+        "description":"It is an awesome place to be."
+        }
+
+    ]
+}
