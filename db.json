@@ -24,5 +24,23 @@
             "imgurl":"https://images.unsplash.com/photo-1541793647037-86afaddc1cf0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YW50ZWxvcGV8ZW58MHx8MHx8&w=1000&q=80",
             "caption":"A photo of an antelope at the Mara"
         }
+    ],
+    "blog":[
+        {
+            "id":1,
+            "content":"By far, my favorite safari experience of my East Africa tour. I loved our tour company guide! He was very knowledgable but knew when to be quiet and let us enjoy. We even got to rescue another safari van that got stuck. The flamingos were insane! We thought it was a land mass and our guide just chuckled and we saw why when we got closer to the body of the water. We saw rhinos and lions, giraffes, zebras, water buffalo, and so so many different birds, including one with a red throat that has acid in it's throat pouch?!?! It was just so beautiful. We stopped and ate lunch at one of the lodges so our view at lunch was stunning. It was just a magical place and a magical experience.",
+            "user":"Voyager"
+        },
+        {
+            "id":2,
+            "content":"The sight of Zebras crossing the Mara river and the crocodiles waiting for their preys is amazing. In fact it is worth the wait for the crossing to take place.We have heard so much about wildebeest crossing; but the zebra crossing in the twilight is a sight to behold. The wildebeest crossing is an annual phenomenon and most of the tourists flock to Masai Mara to have a view of the migration from Serengeti in Tanzania to Masai Mara in Kenya.",
+            "user":"Mtembezi001"
+        },
+        {
+            "id":3,
+            "content":"Lake Nakuru’s compactness and varied landscapes are instantly likeable, and it’s ideal for first-time safari-goers and families (even with small children). On my last visit, waterbuck, impala, buffalo and Rothschild's giraffe were right on the roadside, and I’ve often spotted leopard lounging (unusually) during daylight in the giant yellowwood acacia, and in the southern flat area, lions stretching out in the sun and the odd rhino taking a stroll on the lakeshore. The lake itself though has recently changed considerably; once dominantly a soda lake that famously attracted thousands of flamingos, heavy rains and floods in the Rift Valley since 2012 have swelled it to such an extent that some of the game-driving tracks and campsites have been submerged (even Main Gate has moved to higher ground). But while Lake Nakuru’s environmental character has altered a little (and the flamingos have largely flocked elsewhere), thanks to more fresh water, animal numbers are flourishing and are easily-seen. It certainly won’t be wild enough for some, but is easy to navigate and a game-viewing circuit only takes about three hours – even by taxi or on a game drive booked at the gate. My top tip is to take a picnic and admire the new shapes and colours of the lake from the lookout at Baboon Cliffs.",
+            "user":"Williams"
+        }
+
     ]
 }
