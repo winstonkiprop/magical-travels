@@ -4,14 +4,17 @@ import { NavLink } from "react-router-dom";
 
 function NavBar(){
     return(
-        <div>
+        <div className="navbar">
             <nav>
                 <ul>
                     <li>
-                        <NavLink>
+                        <NavLink to="/gallery">Gallery</NavLink>
                     </li>
                     <li>
-                        <NavLink></NavLink>
+                        <NavLink to="/destination">Destination</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="blog">Blog</NavLink>
                     </li>
                 </ul>
             </nav>
