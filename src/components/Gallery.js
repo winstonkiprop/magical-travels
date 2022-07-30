@@ -18,6 +18,7 @@ function TourGallery(){
             console.log(error);
         })
     }
+
     return(
     <div className="dest-det">
     {images.map((image) => (
