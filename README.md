@@ -20,8 +20,7 @@
 2)Git cloning the repository .
 3)install the app dependancies by running `npm install`.
 4)After the node-modules packages and other dependancies have been installed run `npm start` or `npm run start` to run the app.
-## Project's-Netlify-Live-Link
-nnnnnnnn
+
 ## GitHub-Repo-Link
 https://github.com/winstonkiprop/magical-travels
 
