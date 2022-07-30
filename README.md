@@ -24,8 +24,8 @@
 ## GitHub-Repo-Link
 https://github.com/winstonkiprop/magical-travels
 
-## Back-End-Links
-nnnn
+## Heroku link
+ https://magicaltranvels.herokuapp.com/
 ## Technology-Used
 HTML - Was used as a template to hold the React components of the app via the root div. 
 CSS styling-which was used to style the User Interface.
