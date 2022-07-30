@@ -27,8 +27,6 @@ https://github.com/winstonkiprop/magical-travels
 
 ## Back-End-Links
 nnnn
-## Top Page Screenshot
-nnnn
 ## Technology-Used
 HTML - Was used as a template to hold the React components of the app via the root div. 
 CSS styling-which was used to style the User Interface.
@@ -49,6 +47,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Supoort-And-Contact-Details
+## Support-And-Contact-Details
 Email address: winstonekip50@gmail.com | Slack:winstone  Kiprop |
 Github :winstonkiprop
