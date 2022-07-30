@@ -3,7 +3,7 @@
 
 
  ## Author
-  By Winstone Kiprop
+  By Winstone Kiprop 
 
   ### Description
   The project uses the HTML ,CSS and JAVA SCRIPT,REACT.JS languages to program this site and JSON for hosting a local public API. The laptop store has the following user interactivity :
