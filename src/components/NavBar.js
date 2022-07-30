@@ -8,16 +8,16 @@ function NavBar(){
             <nav className="navbar">
                 <ul>
                 <li>
-                        <NavLink to="/">Home</NavLink>
+                        <NavLink to="/"><h1>Home</h1></NavLink>
                     </li>
                     <li>
-                        <NavLink to="/gallery">Gallery</NavLink>
+                        <NavLink to="/gallery"><h1>Gallery</h1></NavLink>
                     </li>
                     <li>
-                        <NavLink to="/destination">Destination</NavLink>
+                        <NavLink to="/destination"><h1>Destination</h1></NavLink>
                     </li>
                     <li>
-                        <NavLink to="/blog">Blog</NavLink>
+                        <NavLink to="/blog"><h1>Blog</h1></NavLink>
                     </li>
                 </ul>
             </nav>
