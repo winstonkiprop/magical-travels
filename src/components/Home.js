@@ -8,9 +8,7 @@ function Home(){
         
             <h2>Home to beautiful scenery in and around Africa </h2>
             <p>Get accurate and reliable tour travel details and costs to the perfect destination.</p>
-            <img src={imgSrc} />
-             
-             
+            <img src={imgSrc} />  
             
         </div>
 
