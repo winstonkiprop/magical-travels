@@ -19,11 +19,11 @@ function TourGallery(){
         })
     }
     return(
-    <div className="">
+    <div className="dest-det">
     {images.map((image) => (
         <div className="travels-det" key={image.id}>
-            <h1>{image.caption}</h1>
             <img src={image.imgurl} />
+            <h4>{image.caption}</h4>
         </div>
     ))}
 </div>
