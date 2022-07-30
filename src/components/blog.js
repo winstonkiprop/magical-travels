@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+import NewReview from "./NewTravel";
 
 const Blog =() =>{
     const[reviews, setReview] = useState([]);
@@ -30,6 +31,9 @@ const Blog =() =>{
                             </div>
                     ))}
                 </div>
+            </div>
+            <div className="review-form">
+            <NewReview />
             </div>
           </div>
     )
