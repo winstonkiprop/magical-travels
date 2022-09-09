@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
 import NewReview from "./NewTravel";
+import DeleteReview from "./DeleteReview.js";
 
 const Blog =() =>{
     const[reviews, setReview] = useState([]);
@@ -10,7 +11,7 @@ const Blog =() =>{
     
     const getReviews =()=>{
         axios 
-        .get(' http://localhost:3000/blog')
+        .get('http://localhost:9292/reviews')
         .then((response) => {
             console.log(response);
             setReview(response.data);
@@ -26,15 +27,13 @@ const Blog =() =>{
                 <div className="blog-container">
                     {reviews.map((review) => (
                         <div className="blog-content" key={review.id}>
-                            <p>{review.content}</p>
-                            <h3>By: {review.user}</h3>
+                            <p>{review.comment}</p>
+                            <h3>rating: {review.rating}</h3>
                             </div>
                     ))}
                 </div>
             </div>
-            <div className="review-form">
-            <NewReview />
-            </div>
+            <DeleteReview />
           </div>
     )
 }
