@@ -9,7 +9,7 @@ function TourGallery(){
 
     const getImages = () => {
         axios
-        .get('http://localhost:3000/gallery')
+        .get('http://localhost:9292/galleries')
         .then((response) =>{
             console.log(response);
             setImage(response.data);
@@ -18,13 +18,13 @@ function TourGallery(){
             console.log(error);
         })
     }
-
     return(
     <div className="dest-det">
     {images.map((image) => (
         <div className="travels-det" key={image.id}>
-            <img src={image.imgurl} />
-            <h4>{image.caption}</h4>
+            <img src={image.img_url1} />
+            <img src={image.img_url2} />
+            <img src={image.img_url2} />
         </div>
     ))}
 </div>
