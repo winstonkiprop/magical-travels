@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <div className="App">
-   <h1>Magical Travels</h1>
+   <h1>AROUND THE WORLD</h1>
  
  <Router>
    <NavBar/>

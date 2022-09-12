@@ -16,7 +16,7 @@ const handleSubmit =(e) => {
   return(
     <div>
     <form className="review-details-form" onSubmit={handleSubmit}>
-  <input placeholder="review id" type="text"
+  <input className="now" placeholder="review id" type="text"
   value={id}
   onChange={(e) => setId(e.target.value)}/>
    <input type="submit" value="delete" className="btn-delete-inpt"/>

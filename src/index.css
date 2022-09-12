@@ -5,7 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(32, 84, 100);
+  background: #56ab2f;  /* fallback for old browsers */
+  /*background: -webkit-linear-gradient(to bottom, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to bottom, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 code {
@@ -106,6 +109,7 @@ form.new-dest-form textarea{
   background-color: white;
   border-radius: 2%;
   margin: 4%;
+  
 }
 .travels-det img{
   margin: 2%;
@@ -118,10 +122,24 @@ form.new-dest-form textarea{
 .btn-delete-inpt{
   background-color: white;
   margin-top: 2%;
-  width: 120px;
+  width: 100px;
   align-content: center;
   margin-left: 10%;
   padding: 2%;
   border-radius: 10%;
-  height: 30%;
+  height: 15%;
+
+
   }
+  .now{
+   justify-content: center;
+    height: 40px;
+    border-radius: 10%;
+
+  }
+  .add-rating{
+    width: 10%;
+    height: 10%;
+    margin-top: 8%;
+  }
+ 
