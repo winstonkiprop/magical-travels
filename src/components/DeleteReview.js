@@ -4,7 +4,7 @@ function DeleteReview(){
 const [id, setId] = useState("")
 const handleSubmit =(e) => {
     e.preventDefault();
-  axios.delete(`http://localhost:9292/reviews/${id}`, {
+  axios.delete(`https://kutembea-kenya.herokuapp.com/reviews${id}`, {
 })
 .then((response) => {
   console.log(response)

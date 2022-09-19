@@ -9,7 +9,7 @@ function TourGallery(){
 
     const getImages = () => {
         axios
-        .get('http://localhost:9292/galleries')
+        .get('https://kutembea-kenya.herokuapp.com/galleries')
         .then((response) =>{
             console.log(response);
             setImage(response.data);

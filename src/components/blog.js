@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
-import NewReview from "./NewTravel";
+/*import NewReview from "./NewTravel";*/
 import DeleteReview from "./DeleteReview.js";
 
 const Blog =() =>{
@@ -11,7 +11,7 @@ const Blog =() =>{
     
     const getReviews =()=>{
         axios 
-        .get('http://localhost:9292/reviews')
+        .get('https://kutembea-kenya.herokuapp.com/reviews')
         .then((response) => {
             console.log(response);
             setReview(response.data);

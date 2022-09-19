@@ -14,7 +14,7 @@ function Destination(){
     }, [])
     const getAllDestinations = () =>{
         axios 
-        .get('http://localhost:9292/destinations')
+        .get('https://kutembea-kenya.herokuapp.com/destinations')
         .then((response) =>{
             console.log(response);
             setDestination(response.data);
